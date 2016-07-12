@@ -1,0 +1,130 @@
+@media (max-width: 1100px) {
+	.ambassadors {width: 100%;}	
+	.amd_title .main_title {width: 50%;}
+	.amd_title .link_btn {width: 50%;}
+	.ambassadors .entry {overflow: hidden;}
+}
+
+@media(max-width:992px) and (min-width:768px){
+	.tit {padding-top: 0;}
+	.tit1 {font-size: 42px; line-height: 45px;}
+	.tit2 {font-size: 33px; line-height: 45px;}
+	.tit3 {font-size: 87px; line-height: 80px; width: 100%;}
+	.news-col h3 { font-size: 16px;}
+}
+@media(max-width:999px) {
+.wrapper {  margin: auto;  max-width: 980px; width:90%;}
+
+}
+
+@media(max-width:979px) {
+.top-right > .widget-container { float: left;    width: 170px;}
+.top-header .top-right {  float: right;  width: auto;}
+.lagbage-col {  float: left;  margin-right: 20px;  margin-top: 10px;}
+.search-col  { width:170px;}
+.event-col h2 a { font-size: 27px; font-weight: 700;line-height: 30px}
+.navigation ul.nav li a {  font-family: "Oswald",sans-serif;  font-size: 15px;  font-weight: 400;  padding: 4px 14px;}
+.navigation > ul.nav ul { width:175px;}
+.navigation > ul.nav ul li a { font-size:14px;  padding: 8px 14px;}
+}
+
+@media(max-width:979px) {
+.content-side {  float: left;  width: 58%;}
+.right-side {  float: right;  width: 36%;}
+
+}
+
+
+@media(min-width:768px) and  {
+		.event-col .col-6 {padding-right: 11%;}
+}
+
+@media(max-width:767px) {
+	.navigation { display:none;}
+.donate-dec article {  padding: 0 10px 15px;}
+.donate-dec {    font-size: 20px;    line-height: 23px;    text-align: center;}
+.event-col h2 a {  font-size: 18px;  font-weight: 700;  line-height: 24px;}
+.news-col h3 {  font-size: 18px;    font-weight: 400;    line-height: 22px;}
+footer ul li a { font-size:12px;}
+.logo img { height:100px;}
+.inner-slider h1 { font-size:32px;}
+.inner-slider { padding:30px 0;}
+
+.content-side {  float: left;  width: 100%; margin-bottom:20px;5}
+.right-side {  float: right;  width: 100%;}
+
+
+.top-header {   float: left;  font-size: 16px;  min-height: auto;  width: 100%; position:relative;}
+.top-header .wrapper { position:relative;}
+.top-header .top-right {  float: right;  width: 100%;}
+.top-right > .widget-container {  float: right;  width: 175px;}
+.lagbage-col {  float: left;  margin-right: 0;  margin-top: 10px;  position: absolute;  right: 0;  top: 0;}
+.search-col {  margin-right: 0;  width: 202px;}
+.logo {
+  float: left;
+  position: relative;
+  z-index: 1000000;
+}
+.amd_title {width: 97%;}
+.event-col .col-6 {margin-bottom: 30px; padding-right: 0; width: 100%;}
+.event-col .col-33 {width: 100%; text-align: center;}
+.col-33 .now-btn {width: 50%;}
+.col-3.news {text-align: center; width: 100%;}
+}
+@media(max-width:767px) and (min-width:640px){
+	.col-3.news {text-align: left; width: 30%;}
+	.tit1 {font-size: 34px; line-height: 45px;}
+	.tit2 {font-size: 26px; line-height: 45px;}
+	.tit3 {font-size: 72px; line-height: 80px; width: 100%;}
+	.news-col h3 { font-size: 16px;}
+}
+
+@media(max-width:639px) {
+.event-col .col-3 {  float: left;  margin-bottom: 20px;  position: relative;  width: 48%;}	
+.event-col .cl{ display:none;}
+.event-col .col-3 + .col-3 {  margin-left: 0;}
+.event-col .col-3:nth-child(2), .event-col .col-3:nth-child(5), .event-col .col-3:nth-child(7) {  float: right;}
+.connect-us h2, .news-col h2 { font-size:28px;}
+footer .col-3 {  float: left;  padding-bottom: 40px;  text-align: left;  width: 100%;}
+footer ul li a { font-size:14px;}
+.amd_title .main_title {font-size: 20px;}
+}
+@media(max-width:520px) {
+	.amd_title {margin-bottom: 20px;}
+	.amd_title .main_title {width: 100%; margin-bottom: 20px;}
+	.amd_title .link_btn {width: 100%;}
+	.link_btn > a {float: left;}
+	.amd_title {padding: 20px 10px 80px;}
+@media(max-width:480px) { 
+	.tit {padding-top: 0px;}
+	.news-col .col-3 {width: 100%;}
+	.tit1 {font-size: 34px; line-height: 45px;}
+	.tit2 {font-size: 26px; line-height: 45px;}
+	.tit3 {font-size: 72px; line-height: 80px; width: 100%;}
+	.news-col h3 { font-size: 16px;}
+	.advps-slide , .amb-img {height: 250px;}
+	.advps-slide img , .amb-img img {height: 100%;}
+}
+
+@media(max-width:479px) {
+.flogo > img {
+	  width: 100%;
+	}	
+.news-col .col-3 {  float: left;  position: relative;  width: 100%;}
+.news-col .col-3 + .col-3 {  margin-left: 0;  margin-top: 20px;}
+.connect-us span { font-size:15px;}
+.top-header .tittle-get {  font-size: 12px;  line-height: 40px;}
+.search-col {  margin-right: 0;  width: 147px;}
+.top-right > .widget-container {
+  float: right;
+  width: 122px;
+}
+.donate-btn a {   font-size: 17px; padding: 0 9px;}
+.top-header {
+  font-size: 14px;
+}
+}
+@media(max-width:355px) {
+.event-col h2 a {  font-size: 14px;  font-weight: 700;  line-height: 19px;}
+.connect-ush2, .news-col h2 {  font-size: 26px;}
+}
