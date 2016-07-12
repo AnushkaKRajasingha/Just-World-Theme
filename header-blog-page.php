@@ -96,17 +96,24 @@
 
 ?>
     <?php wp_nav_menu( $defaults ); ?>
+    
+    <!--<ul class="nav">
 
+					<li><a href="#">ABOUT</a></li>
+
+					<li><a href="#">AMBASSADORS</a></li>
+
+					<li><a href="#">PROJECTS</a></li>
+
+					<li><a href="#">EVENTS</a></li>
+
+					<li><a href="#">MERCHANDISE</a></li>                    
+
+					</ul>--> 
+    
   </div>
 </header>
-<?php if (is_active_sidebar( 'slider-area'  ) && is_home() ) {  ?>
-<div class="slider">
-  <?php dynamic_sidebar('slider-area'); ?>
-  <?php //echo do_shortcode('[recent_post_slider limit="4" design="design-1" category="3" show_author="false" show_category_name="false" show_content="true" show_date="true" dots="true" arrows="true" autoplay="true" autoplay_interval="5000" speed="1000" content_words_limit="20"]'); ?>
-  
-  <!--<img src="<?php bloginfo('stylesheet_directory'); ?>/images/slider.jpg" alt="">--></div>
-<?php } ?>
-<?php if(!is_home()) { ?>
+<?php if(is_home()) { ?>
 <div class="inner-slider">
   <div class="wrapper">
     <h1>
